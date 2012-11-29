@@ -956,6 +956,19 @@
     .parameter "mp"
 
     .prologue
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lfm/douban/service/Player;->wl:Landroid/os/PowerManager$WakeLock;
+
+    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+
+    move-result v2
+
+    if-nez v2, :cond_a
+
+    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->acquire()V
+
+    :cond_a
     .line 248
     const-string v1, "Player"
 
