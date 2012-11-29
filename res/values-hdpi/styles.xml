@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="center_button">
+        <item name="android:layout_marginBottom">13.0px</item>
+    </style>
+    <style name="left_button">
+        <item name="android:layout_marginLeft">27.0px</item>
+        <item name="android:layout_marginBottom">13.0px</item>
+    </style>
+    <style name="right_button">
+        <item name="android:layout_marginRight">27.0px</item>
+        <item name="android:layout_marginBottom">13.0px</item>
+    </style>
+    <style name="channel_top">
+        <item name="android:layout_marginTop">20.0dip</item>
+    </style>
+    <style name="mask_new">
+        <item name="android:layout_width">80.0dip</item>
+        <item name="android:layout_height">50.0dip</item>
+        <item name="android:layout_marginTop">15.0px</item>
+    </style>
+</resources>

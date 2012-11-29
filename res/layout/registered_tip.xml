@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/Icon" android:padding="2.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_icon" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="20.0px" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_name" android:layout_toRightOf="@id/Icon" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/accountMsg1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:text="@string/account_msg1" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/accountMsg2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:text="@string/account_msg2" android:layout_below="@id/accountMsg1" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/continueButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:text="@string/continue_button" android:layout_below="@id/accountMsg2" android:layout_centerHorizontal="true" />
+</RelativeLayout>

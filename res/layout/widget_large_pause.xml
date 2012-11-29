@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/widget_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/playerButton" android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/expand" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/coverItem" android:layout_below="@id/playerButton" android:layout_centerHorizontal="true" style="@style/widget_large_cover">
+        <ImageView android:id="@id/songPicture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <RelativeLayout android:layoutAnimation="@anim/layout_fade_in" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:background="#7f000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pause" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/artistName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/coverItem" style="@style/widget_large_artist" />
+    <TextView android:textColor="#ff9dd6c5" android:ellipsize="end" android:gravity="center" android:id="@id/songName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/artistName" style="@style/widget_large_song" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/widget_large_buttons">
+        <ImageButton android:id="@id/heartButton" android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/like_button" android:layout_toLeftOf="@id/trashButton" />
+        <ImageButton android:id="@id/trashButton" android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:src="@drawable/trash_button" android:layout_centerHorizontal="true" />
+        <ImageButton android:id="@id/skipButton" android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/skip_button" android:layout_toRightOf="@id/trashButton" />
+    </RelativeLayout>
+</RelativeLayout>

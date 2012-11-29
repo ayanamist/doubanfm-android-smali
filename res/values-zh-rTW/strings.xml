@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">豆瓣FM</string>
+    <string name="notification_title">豆瓣FM</string>
+    <string name="channel_downloading">更新頻道列表...</string>
+    <string name="channel_downloaded">頻道列表已经更新。</string>
+    <string name="unplug_tip">耳機已經拔出！ 請插入耳機繼續播放。</string>
+    <string name="resume_button">恢復播放</string>
+    <string name="download_apk_done">新版本的豆瓣FM安裝包已經下載完了!</string>
+    <string name="error_upgrade_fail">抱歉，下載升級包失敗，請下次再試</string>
+    <string name="quit_button">退出</string>
+    <string name="continue_button">繼續</string>
+    <string name="wifi_tip_off">不再提醒</string>
+    <string name="downloading">正在下载豆瓣FM升级包,请稍候...</string>
+    <string name="update_button">升級</string>
+    <string name="later_button">以後再說</string>
+    <string name="update">豆瓣FM在Market有更新了！</string>
+    <string name="play_offline_button">離線播放</string>
+    <string name="public_channel_title">公共频道</string>
+    <string name="personal_channel_title">私人频道</string>
+    <string name="public_time">發行時間：%1$s</string>
+    <string name="menu_channel">全部頻道</string>
+    <string name="menu_setting">設置</string>
+    <string name="menu_setting_more">豆瓣FM 設置</string>
+    <string name="menu_login">賬號登錄</string>
+    <string name="menu_logout">帳號登出</string>
+    <string name="menu_quit">關閉</string>
+    <string name="logout_title">帳號登出？</string>
+    <string name="logout_msg">"當前登錄的帳號是：
+"</string>
+    <string name="login_title">豆瓣FM 登錄</string>
+    <string name="login_name">你的豆瓣帳號</string>
+    <string name="email">Email地址</string>
+    <string name="username">Email/用戶名</string>
+    <string name="password">密碼</string>
+    <string name="register_button">注冊新帳戶</string>
+    <string name="reset_password">忘記密碼</string>
+    <string name="button_login">登錄</string>
+    <string name="button_back">返回</string>
+    <string name="logging">正在登錄，請稍候...</string>
+    <string name="error_email">請輸入你的Email地址/用戶名</string>
+    <string name="error_email_format">請輸入正确的Email地址。需要時，它可以幫助你找回密碼。</string>
+    <string name="error_password">請輸入你在豆瓣的注冊密碼</string>
+    <string name="error_auth_fail">你的Email/用戶名和密碼不符，請再試一次</string>
+    <string name="error_version_low">你的版本太老啦，請去Market更新你的豆瓣FM吧！</string>
+    <string name="error_playlist">歌曲列表解析出錯，請稍後重試。</string>
+    <string name="error_unknow">豆瓣FM服務暫時不可用，請稍後重試。</string>
+    <string name="user_anonymous_title">未登錄</string>
+    <string name="my_personal_channel_title">我的私人频道</string>
+    <string name="personal_channel_tip">登錄後即可開啟私人频道</string>
+    <string name="channel_title">豆瓣FM 全部頻道</string>
+    <string name="settings_title">豆瓣FM 設置</string>
+    <string name="common_setting">常規</string>
+    <string name="wifi_tip">網絡提醒</string>
+    <string name="wifi_details">沒有可用的WIFI網絡時彈出提醒</string>
+    <string name="shake_skip">搖動換歌</string>
+    <string name="shake_details">搖動手機即可切換到下一首歌</string>
+    <string name="headphone_skip">耳機按鈕換歌</string>
+    <string name="headphone_details">按耳機按鈕即可切換到下一首歌</string>
+    <string name="clear_cache">清楚緩存</string>
+    <string name="clear_cache_details">清除豆瓣FM所有緩存文件</string>
+    <string name="other_setting">其他</string>
+    <string name="feedback">反饋</string>
+    <string name="feedback_title">豆瓣FM 反饋</string>
+    <string name="feedback_details">告訴我們你的意見或建議</string>
+    <string name="help">幫助</string>
+    <string name="help_details">使用幫助和支持</string>
+    <string name="about">關于</string>
+    <string name="version">版本號：</string>
+    <string name="sleep_clock">定時關閉</string>
+    <string name="sleep_details">設置定時關閉時間</string>
+    <string name="sleep_never">從不</string>
+    <string name="sleep_quarter">15分鐘</string>
+    <string name="sleep_half">半小時</string>
+    <string name="sleep_one">1小時</string>
+    <string name="sleep_two">2小時</string>
+    <string name="good_night">再見！ 豆瓣FM</string>
+    <string name="question">你的問題：</string>
+    <string name="feedback_name">聯系我們</string>
+    <string name="feedback_tip">你的反饋已經成功發送，我們的回復會在第一時間發送到你的郵箱。</string>
+    <string name="submit_button">提交</string>
+    <string name="reset_password_title">豆瓣FM 重置密碼</string>
+    <string name="reset_password_name">重置豆瓣FM密碼</string>
+    <string name="reset_password_tip">我們已經給你的郵箱發送了郵件，請點擊郵件裏面的鏈接來重置密碼。</string>
+    <string name="error_question">請寫下你遇到的問題</string>
+    <string name="submitting">正在提交,請稍候...</string>
+    <string name="error_no_confirm">這個用戶沒有激活過，我們給你重發了激活郵件，你激活後再來重置密碼。</string>
+    <string name="error_not_registered">這個Email地址還沒有注冊過。</string>
+    <string name="error_sys_error">抱歉，豆瓣的Email服務有問題，請稍後再試。</string>
+    <string name="error_playlist_error">抱歉，更新頻道列表失敗，請確認網絡可用，稍後再試。</string>
+    <string name="quit_msg">真的要關閉嗎？</string>
+    <string name="first_user_like">好，後悔會給你播更多這樣的好歌 ：）</string>
+    <string name="first_user_hate">好，這首歌不會再播了</string>
+    <string name="first_anonymous_like">不登錄的話，下次用豆瓣FM紅心就沒了</string>
+    <string name="first_anonymous_hate">公共频道裏面的歌曲不可以被丟進垃圾桶</string>
+    <string name="error_host">解析服務器出錯，請確認網絡可用，稍後再試。</string>
+    <string name="error_time_out">網絡超時，請確認網絡可用，稍後再試。</string>
+    <string name="error_no_net">無可用網絡，請確認網絡可用，稍後再試。</string>
+    <string name="wifi_mobile">"沒有可用的WiFi網絡。
+繼續使用，可能產生數據流量費用。"</string>
+    <string name="error_relogin">登錄已經過期，請重新登錄。</string>
+    <string name="ok_button">確定</string>
+    <string name="accept_button">接受</string>
+    <string name="reject_button">拒絕</string>
+    <string name="cancel_button">取消</string>
+    <string name="account_name">關于豆瓣FM帳號</string>
+    <string name="account_msg1">此帳號暫時只能在手機豆瓣FM上使用</string>
+    <string name="account_msg2">如果想開啓豆瓣其他服務，請前往豆瓣網（www.douban.com）用郵箱來註冊新的帳號。</string>
+    <string name="about_text">"應用名稱：豆瓣FM
+
+Version Name:%1$s
+
+公司相關信息:
+Douban Inc.
+All Rights Reserved.
+
+客服電話：4006599983
+
+客服郵件：
+android@douban.com"</string>
+    <string name="sina_login">用新浪微博账号登录</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/feedbackTitle" android:text="@string/feedback_name" style="@style/header" />
+    <TextView android:id="@id/emailTip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/email" android:layout_below="@id/feedbackTitle" style="@style/tip" />
+    <EditText android:id="@id/emailText" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/emailTip" />
+    <TextView android:id="@id/questionTip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/question" android:layout_below="@id/emailText" style="@style/tip" />
+    <EditText android:gravity="left" android:id="@id/questionText" android:padding="5.0dip" android:layout_width="fill_parent" android:singleLine="false" android:layout_below="@id/questionTip" style="@style/feedback_body" />
+    <Button android:id="@id/submitButton" android:layout_height="wrap_content" android:text="@string/submit_button" android:layout_below="@id/questionText" android:layout_centerHorizontal="true" style="@style/submit_button" />
+</RelativeLayout>

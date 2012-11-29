@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="font10_black_style">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="font10_gray_style">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="font10_white_style">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="font12_black_style">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="font12_white_style">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="font12_gray_style">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="font13_gray_style">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="font13_black_style">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="font13_white_style">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="font14_white_style">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="font14_gray_style">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="font14_black_style">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="font15_black_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="font15_gray_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="font16_black_style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="font16_white_style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="font18_white_style">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="font18_black_style">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="font18_gray_style">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="font20_white_style">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="font20_black_style">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="font20_gray_style">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="font22_white_style">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="font22_gold_style">
+        <item name="android:textSize">22.0px</item>
+        <item name="android:textColor">#ffcfcaca</item>
+    </style>
+    <style name="topbar_style">
+        <item name="android:background">#ff000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50.0dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="page_white_style">
+        <item name="android:background">#ffffffff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="topbar_center_style">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="setting_frame_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">43.0dip</item>
+    </style>
+    <style name="setting_left_style" parent="@style/font14_black_style">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="setting_center_style" parent="@style/font20_black_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="setting_right_style" parent="@style/font20_gray_style">
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="bind_btn_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">70.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="share_song_name_style" parent="@style/font18_white_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="share_info_style" parent="@style/font14_gray_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="dialog_share_top_style">
+        <item name="android:layout_marginTop">70.0dip</item>
+    </style>
+    <style name="header_topbar_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">80.0dip</item>
+    </style>
+    <style name="fill_parent_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="wrap_content_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="wrapcontent_centervertical_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="fillwidth_wrapheight_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="fillheight_wrapwidth_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="DoubanTheme.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textSize">16.0px</item>
+    </style>
+    <style name="notify_title">
+        <item name="android:textSize">18.0px</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="notify_channel">
+        <item name="android:textSize">16.0px</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="notify_info">
+        <item name="android:textSize">14.0px</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+    <style name="header">
+        <item name="android:textSize">20.0px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">20.0px</item>
+        <item name="android:paddingBottom">5.0px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="feedback_body">
+        <item name="android:padding">5.0px</item>
+        <item name="android:layout_height">240.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+    <style name="pl">
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="submit_button">
+        <item name="android:padding">5.0px</item>
+        <item name="android:layout_width">100.0px</item>
+    </style>
+    <style name="tip">
+        <item name="android:paddingBottom">5.0px</item>
+    </style>
+    <style name="player_bg">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="channel_title">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ffbfbfbf</item>
+    </style>
+    <style name="personal_channel_title">
+        <item name="android:textSize">28.0px</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffd3c4a4</item>
+        <item name="android:layout_marginTop">14.0px</item>
+    </style>
+    <style name="channel_switcher">
+        <item name="android:layout_marginTop">14.0dip</item>
+    </style>
+    <style name="mask">
+        <item name="android:layout_width">110.0px</item>
+        <item name="android:layout_height">60.0px</item>
+        <item name="android:layout_marginTop">14.0px</item>
+    </style>
+    <style name="mask_u">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">120.0dip</item>
+    </style>
+    <style name="mask_d">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">120.0dip</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="line">
+        <item name="android:layout_marginTop">114.0px</item>
+    </style>
+    <style name="picture_item">
+        <item name="android:layout_marginTop">15.0dip</item>
+    </style>
+    <style name="song_picture">
+        <item name="android:layout_width">250.0dip</item>
+        <item name="android:layout_height">250.0dip</item>
+    </style>
+    <style name="song_mask">
+        <item name="android:layout_width">200.0dip</item>
+        <item name="android:layout_height">200.0dip</item>
+    </style>
+    <style name="cur_time">
+        <item name="android:textSize">13.0px</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="action_bar">
+        <item name="android:background">@drawable/border</item>
+        <item name="android:layout_height">97.0px</item>
+        <item name="android:layout_marginBottom">124.0px</item>
+    </style>
+    <style name="center_button">
+        <item name="android:layout_marginBottom">24.0px</item>
+    </style>
+    <style name="left_button">
+        <item name="android:layout_marginLeft">36.0px</item>
+        <item name="android:layout_marginBottom">24.0px</item>
+    </style>
+    <style name="right_button">
+        <item name="android:layout_marginRight">36.0px</item>
+        <item name="android:layout_marginBottom">24.0px</item>
+    </style>
+    <style name="song_name">
+        <item name="android:textSize">13.0px</item>
+        <item name="android:textColor">#ffcfcaca</item>
+        <item name="android:layout_width">260.0px</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    <style name="album_bg">
+        <item name="android:layout_width">250.0dip</item>
+        <item name="android:layout_height">250.0dip</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="album_name">
+        <item name="android:textSize">14.0px</item>
+        <item name="android:textColor">#ffcfcaca</item>
+        <item name="android:layout_marginTop">52.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+    <style name="public_time">
+        <item name="android:textSize">13.0px</item>
+        <item name="android:textColor">#ffcfcaca</item>
+        <item name="android:layout_marginTop">10.0px</item>
+    </style>
+    <style name="login_title">
+        <item name="android:textSize">16.0px</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="login_body">
+        <item name="android:layout_marginTop">5.0px</item>
+    </style>
+    <style name="login_input">
+        <item name="android:textColor">#ff666666</item>
+        <item name="android:layout_marginTop">5.0px</item>
+    </style>
+    <style name="login_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="login_text">
+        <item name="android:layout_marginLeft">15.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">15.0px</item>
+    </style>
+    <style name="login_bottom">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="personal_title">
+        <item name="android:padding">8.0px</item>
+    </style>
+    <style name="section_title">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#ff333333</item>
+        <item name="android:padding">3.0px</item>
+    </style>
+    <style name="item_section">
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">15.0px</item>
+    </style>
+    <style name="item_title">
+        <item name="android:textSize">20.0px</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="divider">
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginBottom">0.0px</item>
+    </style>
+    <style name="ack_scroll">
+        <item name="android:padding">10.0px</item>
+        <item name="android:layout_height">300.0px</item>
+    </style>
+    <style name="welcome_progress" parent="@android:attr/progressBarStyleSmall">
+        <item name="android:layout_marginTop">10.0px</item>
+    </style>
+    <style name="bg_w">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">86.0dip</item>
+    </style>
+    <style name="logo_w">
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:layout_marginRight">27.0dip</item>
+    </style>
+    <style name="power_button_on">
+        <item name="android:layout_marginLeft">15.0px</item>
+        <item name="android:layout_marginRight">15.0px</item>
+    </style>
+    <style name="widget_progress" parent="@android:attr/progressBarStyleSmall">
+        <item name="android:layout_marginLeft">15.0px</item>
+        <item name="android:layout_marginRight">15.0px</item>
+    </style>
+    <style name="line_left">
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+    </style>
+    <style name="line_right">
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+    </style>
+    <style name="widget_large">
+        <item name="android:background">@drawable/widget_bg</item>
+        <item name="android:layout_width">280.0dip</item>
+        <item name="android:layout_height">380.0dip</item>
+    </style>
+    <style name="intel_widget_large">
+        <item name="android:background">@drawable/intel_bg</item>
+        <item name="android:layout_width">280.0dip</item>
+        <item name="android:layout_height">396.0dip</item>
+    </style>
+    <style name="widget_large_cover">
+        <item name="android:layout_width">200.0dip</item>
+        <item name="android:layout_height">200.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+    </style>
+    <style name="intel_widget_large_cover">
+        <item name="android:layout_width">220.0px</item>
+        <item name="android:layout_height">220.0px</item>
+        <item name="android:layout_marginTop">22.0dip</item>
+    </style>
+    <style name="widget_large_buttons">
+        <item name="android:layout_marginBottom">20.0dip</item>
+    </style>
+    <style name="intel_widget_large_buttons">
+        <item name="android:layout_marginBottom">30.0dip</item>
+    </style>
+    <style name="widget_large_artist">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:layout_marginTop">13.0dip</item>
+    </style>
+    <style name="intel_widget_large_artist">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:layout_marginTop">15.0dip</item>
+    </style>
+    <style name="widget_large_album" />
+    <style name="intel_widget_large_album" />
+    <style name="widget_large_song">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+    </style>
+    <style name="intel_widget_large_song">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:layout_marginTop">14.0dip</item>
+    </style>
+    <style name="widget_large_logo">
+        <item name="android:layout_width">150.0dip</item>
+        <item name="android:layout_height">57.0dip</item>
+        <item name="android:layout_marginTop">120.0dip</item>
+    </style>
+    <style name="intel_widget_large_logo">
+        <item name="android:layout_width">200.0dip</item>
+        <item name="android:layout_height">76.0dip</item>
+        <item name="android:layout_marginTop">150.0dip</item>
+    </style>
+    <style name="widget_large_start">
+        <item name="android:layout_width">160.0dip</item>
+        <item name="android:layout_marginBottom">60.0dip</item>
+    </style>
+    <style name="intel_widget_large_start">
+        <item name="android:layout_width">220.0dip</item>
+        <item name="android:layout_marginBottom">60.0dip</item>
+    </style>
+    <style name="offline_status" parent="@style/channel_title">
+        <item name="android:textSize">10.0sp</item>
+    </style>
+    <style name="channel_top">
+        <item name="android:layout_marginTop">20.0dip</item>
+    </style>
+    <style name="mask_new">
+        <item name="android:layout_width">60.0px</item>
+        <item name="android:layout_height">25.0px</item>
+        <item name="android:layout_marginTop">15.0px</item>
+    </style>
+    <style name="new_progress">
+        <item name="android:maxWidth">100.0dip</item>
+        <item name="android:maxHeight">100.0dip</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/loading_n</item>
+        <item name="android:minWidth">48.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+</resources>

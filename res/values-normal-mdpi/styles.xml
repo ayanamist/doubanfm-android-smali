@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DoubanTheme.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textSize">16.0px</item>
+    </style>
+    <style name="notify_title">
+        <item name="android:textSize">18.0px</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="notify_channel">
+        <item name="android:textSize">16.0px</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="notify_info">
+        <item name="android:textSize">14.0px</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+    <style name="header">
+        <item name="android:textSize">20.0px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">20.0px</item>
+        <item name="android:paddingBottom">5.0px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="feedback_body">
+        <item name="android:padding">5.0px</item>
+        <item name="android:layout_height">240.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+    <style name="pl">
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="submit_button">
+        <item name="android:padding">5.0px</item>
+        <item name="android:layout_width">100.0px</item>
+    </style>
+    <style name="tip">
+        <item name="android:paddingBottom">5.0px</item>
+    </style>
+    <style name="channel_title">
+        <item name="android:textSize">13.0px</item>
+        <item name="android:textColor">#ffbfbfbf</item>
+        <item name="android:layout_marginTop">22.0px</item>
+    </style>
+    <style name="personal_channel_title">
+        <item name="android:textSize">28.0px</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffd3c4a4</item>
+        <item name="android:layout_marginTop">14.0px</item>
+    </style>
+    <style name="channel_switcher">
+        <item name="android:layout_marginTop">14.0px</item>
+    </style>
+    <style name="mask">
+        <item name="android:layout_width">110.0px</item>
+        <item name="android:layout_height">80.0px</item>
+        <item name="android:layout_marginTop">14.0px</item>
+    </style>
+    <style name="line">
+        <item name="android:layout_marginTop">114.0px</item>
+    </style>
+    <style name="picture_item">
+        <item name="android:layout_marginTop">10.0dip</item>
+    </style>
+    <style name="song_picture">
+        <item name="android:layout_width">200.0px</item>
+        <item name="android:layout_height">200.0px</item>
+    </style>
+    <style name="song_mask">
+        <item name="android:layout_width">160.0px</item>
+        <item name="android:layout_height">160.0px</item>
+    </style>
+    <style name="cur_time">
+        <item name="android:textSize">13.0px</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="center_button">
+        <item name="android:layout_marginBottom">24.0px</item>
+    </style>
+    <style name="left_button">
+        <item name="android:layout_marginLeft">36.0px</item>
+        <item name="android:layout_marginBottom">24.0px</item>
+    </style>
+    <style name="right_button">
+        <item name="android:layout_marginRight">36.0px</item>
+        <item name="android:layout_marginBottom">24.0px</item>
+    </style>
+    <style name="song_name">
+        <item name="android:textSize">13.0px</item>
+        <item name="android:textColor">#ffcfcaca</item>
+        <item name="android:layout_width">260.0px</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+    <style name="album_name">
+        <item name="android:textSize">14.0px</item>
+        <item name="android:textColor">#ffcfcaca</item>
+        <item name="android:layout_marginTop">52.0px</item>
+        <item name="android:layout_marginBottom">10.0px</item>
+    </style>
+    <style name="public_time">
+        <item name="android:textSize">13.0px</item>
+        <item name="android:textColor">#ffcfcaca</item>
+        <item name="android:layout_marginTop">10.0px</item>
+    </style>
+    <style name="login_title">
+        <item name="android:textSize">16.0px</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="login_body">
+        <item name="android:layout_marginTop">5.0px</item>
+    </style>
+    <style name="login_input">
+        <item name="android:textColor">#ff666666</item>
+        <item name="android:layout_marginTop">5.0px</item>
+    </style>
+    <style name="login_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="login_text">
+        <item name="android:layout_marginLeft">15.0px</item>
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">15.0px</item>
+    </style>
+    <style name="login_bottom">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="personal_title">
+        <item name="android:padding">8.0px</item>
+    </style>
+    <style name="section_title">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#ff333333</item>
+        <item name="android:padding">3.0px</item>
+    </style>
+    <style name="item_section">
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginRight">15.0px</item>
+    </style>
+    <style name="item_title">
+        <item name="android:textSize">20.0px</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="divider">
+        <item name="android:layout_marginTop">10.0px</item>
+        <item name="android:layout_marginBottom">0.0px</item>
+    </style>
+    <style name="ack_scroll">
+        <item name="android:padding">10.0px</item>
+        <item name="android:layout_height">300.0px</item>
+    </style>
+    <style name="welcome_progress" parent="@android:attr/progressBarStyleSmall">
+        <item name="android:layout_marginTop">10.0px</item>
+    </style>
+</resources>

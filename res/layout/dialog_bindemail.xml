@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@android:id/tabcontent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TableRow android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:id="@id/emailtobind_text" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_to_bind" style="@style/font20_white_style" />
+            <EditText android:gravity="center" android:id="@id/emailtobind" android:padding="5.0dip" android:layout_width="150.0dip" android:layout_height="wrap_content" android:hint="@string/email" android:singleLine="true">
+                <requestFocus />
+            </EditText>
+        </TableRow>
+        <TableRow android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:id="@id/password_text" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pwd_of_account" android:maxEms="6" style="@style/font20_white_style" />
+            <EditText android:gravity="center" android:id="@id/accountpassword" android:padding="5.0dip" android:layout_width="150.0dip" android:layout_height="wrap_content" android:hint="@string/password" android:singleLine="true" android:inputType="textPassword" style="@style/font20_black_style" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@android:id/tabcontent">
+        <Button android:id="@android:id/button1" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="150.0dip" android:text="@string/send_button" android:layout_weight="1.0" />
+        <Button android:id="@android:id/button2" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="150.0dip" android:text="@string/cancel_button" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

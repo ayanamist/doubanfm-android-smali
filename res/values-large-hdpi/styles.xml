@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="line">
+        <item name="android:layout_marginTop">168.0dip</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="picture_item">
+        <item name="android:layout_marginTop">30.0dip</item>
+    </style>
+    <style name="song_picture">
+        <item name="android:layout_width">300.0dip</item>
+        <item name="android:layout_height">300.0dip</item>
+    </style>
+    <style name="song_mask">
+        <item name="android:layout_width">240.0dip</item>
+        <item name="android:layout_height">240.0dip</item>
+    </style>
+    <style name="cur_time">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="center_button">
+        <item name="android:layout_marginBottom">36.0dip</item>
+    </style>
+    <style name="left_button">
+        <item name="android:layout_marginLeft">48.0dip</item>
+        <item name="android:layout_marginBottom">36.0dip</item>
+    </style>
+    <style name="right_button">
+        <item name="android:layout_marginRight">48.0dip</item>
+        <item name="android:layout_marginBottom">36.0dip</item>
+    </style>
+    <style name="song_name">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffcfcaca</item>
+        <item name="android:layout_width">260.0px</item>
+        <item name="android:layout_marginBottom">15.0dip</item>
+    </style>
+    <style name="channel_top">
+        <item name="android:layout_marginTop">70.0dip</item>
+    </style>
+    <style name="mask_new">
+        <item name="android:layout_width">100.0dip</item>
+        <item name="android:layout_height">80.0dip</item>
+        <item name="android:layout_marginTop">15.0px</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/ic_dialog_time" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/wake_alarm" android:singleLine="true" android:layout_toRightOf="@id/icon" android:layout_alignParentTop="true" style="?android:attr/textAppearanceLarge" />
+    <ImageView android:gravity="fill_horizontal" android:id="@id/titleDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/dialog_divider_horizontal_light" android:scaleType="fitXY" android:layout_below="@id/icon" />
+    <TimePicker android:layout_gravity="center_horizontal" android:id="@id/timePicker" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/titleDivider" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/alarmDays" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/timePicker">
+        <RadioButton android:id="@id/wakeWeekday" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:text="@string/wake_weekday" />
+        <RadioButton android:id="@id/wakeWeekend" android:layout_marginRight="10.0dip" android:text="@string/wake_weekend" />
+        <RadioButton android:id="@id/wakeEveryday" android:text="@string/wake_everyday" />
+    </RadioGroup>
+    <LinearLayout android:gravity="center_vertical" android:layout_below="@id/alarmDays" style="@style/login_bottom">
+        <Button android:id="@id/okButton" android:text="@string/setting_button" android:layout_weight="0.5" style="@style/login_button" />
+        <Button android:id="@id/cancelButton" android:text="@string/cancel_button" android:layout_weight="0.5" style="@style/login_button" />
+    </LinearLayout>
+</RelativeLayout>

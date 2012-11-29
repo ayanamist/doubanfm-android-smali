@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#e63f3b37" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/guidance_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/new_user_guidance" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/close_guidance" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/guidance_close" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

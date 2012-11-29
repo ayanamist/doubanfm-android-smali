@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/Player" android:background="@drawable/light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@android:id/home" android:paddingTop="2.0dip" android:layout_alignParentTop="true" style="@style/fillwidth_wrapheight_style">
+        <RelativeLayout android:id="@id/settingButton" android:background="@drawable/toplogo_bg_selector" android:paddingLeft="13.0dip" android:paddingTop="15.0dip" android:paddingRight="7.0dip" android:paddingBottom="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@android:id/icon" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/top_logo" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@android:id/icon1" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_arrow" android:layout_toRightOf="@android:id/icon" />
+        </RelativeLayout>
+        <ImageView android:id="@id/channelButton" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/channel" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/shareButton" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@android:id/home">
+        <TextView android:id="@id/channelTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/public_channel_title" android:layout_centerHorizontal="true" style="@style/channel_title" />
+        <TextView android:id="@id/offlineStatus" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/offline_status" android:layout_below="@id/channelTitle" android:layout_centerHorizontal="true" style="@style/offline_status" />
+        <fm.douban.view.ChannelSwitcher android:id="@id/channelSwitcher" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/line" android:layout_below="@id/channelTitle" style="@style/channel_switcher" />
+        <ImageView android:id="@id/maskLeft" android:layout_width="100.0dip" android:layout_height="fill_parent" android:src="@drawable/mask_left" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/maskRight" android:layout_width="100.0dip" android:layout_height="fill_parent" android:src="@drawable/mask_right" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/line" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/line" android:layout_centerHorizontal="true" style="@style/line" />
+    <ImageView android:id="@id/player_background" android:layout_below="@id/line" android:alpha="0.6" style="@style/player_bg" />
+    <ImageView android:id="@id/maskUp" android:src="@drawable/mask_up" android:layout_below="@id/line" style="@style/mask_u" />
+    <ImageView android:id="@id/maskDown" android:src="@drawable/mask_down" style="@style/mask_d" />
+    <RelativeLayout android:background="@drawable/border" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/curTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_toLeftOf="@id/likeButton" style="@style/font22_white_style" />
+        <fm.douban.view.ScrollTextView android:ellipsize="marquee" android:gravity="center" android:id="@id/songName" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:scrollHorizontally="true" android:singleLine="true" android:layout_toLeftOf="@id/likeButton" android:layout_below="@id/curTime" android:marqueeRepeatLimit="marquee_forever" style="@style/font22_gold_style" />
+        <ImageButton android:id="@id/likeButton" android:background="@drawable/transparent" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/like_button" android:layout_toLeftOf="@id/hateButton" />
+        <ImageButton android:id="@id/hateButton" android:background="@drawable/transparent" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/trash_button" android:layout_toLeftOf="@id/skipButton" />
+        <ImageButton android:id="@id/skipButton" android:background="@drawable/transparent" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/skip_button" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/coverItem" android:animationCache="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginBottom="125.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/nextSongView" android:src="@drawable/cover_bg" android:layout_centerHorizontal="true" style="@style/song_picture" />
+        <fm.douban.view.FlipGallery android:id="@id/songPicture" android:layout_centerHorizontal="true" style="@style/song_picture" />
+        <RelativeLayout android:id="@id/songMask" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/song_mask">
+            <ProgressBar android:id="@id/pictureProgress" android:paddingTop="40.0px" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="10000" android:layout_centerInParent="true" style="@style/new_progress" />
+            <ImageView android:id="@id/maskPauseOverlay" android:background="#7f000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/maskPauseResumeAnim" android:paddingTop="40.0px" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@android:id/icon2" android:background="@drawable/roundcorner_menu_bg" android:animationCache="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-7.0dip" android:minWidth="160.0dip" android:layout_below="@android:id/home" android:layout_centerHorizontal="true">
+        <TextView android:id="@android:id/text1" android:background="@drawable/menu_setting_bg_selector" android:padding="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_button" android:layout_weight="1.0" style="@style/font18_white_style" />
+        <TextView android:id="@android:id/text2" android:background="@drawable/menu_setting_bg_selector" android:padding="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:text="@string/quit_fm" android:layout_weight="1.0" style="@style/font18_white_style" />
+    </LinearLayout>
+</RelativeLayout>

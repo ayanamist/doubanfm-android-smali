@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">豆瓣FM</string>
+    <string name="notification_title">豆瓣FM</string>
+    <string name="test">Test</string>
+    <string name="like">喜欢</string>
+    <string name="dislike">不喜欢</string>
+    <string name="hate">垃圾桶</string>
+    <string name="skip">下一首</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="quit">退出</string>
+    <string name="quit_fm">退出豆瓣FM</string>
+    <string name="heart_channel_zh">红心</string>
+    <string name="heart_channel_en">Favorite</string>
+    <string name="heart_channel_abbr_en">Fav</string>
+    <string name="channel">频道列表</string>
+    <string name="mhz">兆赫</string>
+    <string name="MHz">MHz</string>
+    <string name="minutes">%1$s 分钟 ~ %2$s 分钟</string>
+    <string name="CHANNEL_TITLE_MAX_FONT_SIZE">28</string>
+    <string name="CHANNEL_TITLE_MIDDLE_FONT_SIZE">16</string>
+    <string name="CHANNEL_TITLE_MIN_FONT_SIZE">16</string>
+    <string name="channel_downloading">更新频道列表...</string>
+    <string name="channel_downloaded">频道列表已经更新。</string>
+    <string name="unplug_tip">耳机已经拔出！ 请插入耳机继续播放。</string>
+    <string name="resume_button">恢复播放</string>
+    <string name="download_apk_done">新版本的豆瓣FM安装包已经下载完了!</string>
+    <string name="error_upgrade_fail">抱歉，下载升级包失败，请下次再试</string>
+    <string name="quit_button">退出</string>
+    <string name="continue_button">继续</string>
+    <string name="wifi_tip_off">不再提醒</string>
+    <string name="downloading">正在下载豆瓣FM升级包,请稍候...</string>
+    <string name="update_button">升级</string>
+    <string name="later_button">以后再说</string>
+    <string name="update">豆瓣FM在Market有更新了！</string>
+    <string name="play_offline_button">离线播放</string>
+    <string name="channel_info">- %1$sMHz</string>
+    <string name="song_info">%1$s - %2$s</string>
+    <string name="public_channel_title">公共兆赫</string>
+    <string name="personal_channel_title">私人兆赫</string>
+    <string name="album_name">《 %1$s 》</string>
+    <string name="public_time">发行时间：%1$s</string>
+    <string name="select_wait">请稍候</string>
+    <string name="menu_channel">全部频道</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_setting_more">豆瓣FM 设置</string>
+    <string name="menu_login">帐号登录</string>
+    <string name="menu_logout">帐号登出</string>
+    <string name="menu_quit">关闭</string>
+    <string name="logout_title">帐号登出？</string>
+    <string name="logout_msg">"当前登录的帐号是：
+"</string>
+    <string name="login_title">豆瓣FM 登录</string>
+    <string name="login_name">你的豆瓣账号</string>
+    <string name="email">Email地址</string>
+    <string name="username">Email/用户名</string>
+    <string name="password">密码</string>
+    <string name="register_button">还没有账号? 点此注册</string>
+    <string name="reset_password">忘记密码</string>
+    <string name="button_login">登录</string>
+    <string name="button_back">返回</string>
+    <string name="at">＠</string>
+    <string name="logging">正在登录,请稍候...</string>
+    <string name="error_email">请输入你的Email/用户名</string>
+    <string name="error_email_format">请输入正确的Email地址。需要时，它可以帮助你找回密码。</string>
+    <string name="error_password">请输入你在豆瓣的注册密码</string>
+    <string name="error_auth_fail">你的Email/用户名和密码不符，请再试一次</string>
+    <string name="error_version_low">你的版本太老啦，请去Market更新你的豆瓣FM吧！</string>
+    <string name="error_playlist">歌曲列表解析出错，请稍后重试。</string>
+    <string name="error_unknow">豆瓣FM服务暂时不可用，请稍后重试。</string>
+    <string name="user_anonymous_title">未登录</string>
+    <string name="my_personal_channel_title">私人 MHz</string>
+    <string name="personal_channel_tip">登录后即可开启私人兆赫</string>
+    <string name="red_channel_checking">正在检查红心数量...</string>
+    <string name="personal_offline_red_channel">红心 MHz</string>
+    <string name="personal_offline_red_channel_can_sync">点击开始同步</string>
+    <string name="personal_offline_red_channel_syncing">正在同步离线歌曲...</string>
+    <string name="personal_offline_red_channel_can_play">可离线收听了</string>
+    <string name="personal_offline_red_channel_can_play_when_syncing">正在同步离线歌曲,可离线收听了</string>
+    <string name="personal_offline_red_channel_can_play_title">选择操作方式</string>
+    <string name="personal_offline_red_channel_can_play_warning">离线播放红心兆赫还是继续同步?</string>
+    <string name="personal_offline_red_channel_cannot_play">还有%1$s红心歌曲才能开启，快去点亮红心吧</string>
+    <string name="personal_offline_red_channel_sdcard_warning">SD卡空间不足，请删除一些文件后继续操作</string>
+    <string name="personal_offline_red_channel_sdcard_error">SD卡读取异常</string>
+    <string name="personal_offline_play_button">播放</string>
+    <string name="personal_offline_sync_button">同步</string>
+    <string name="channel_title">豆瓣FM 全部频道</string>
+    <string name="settings_title">豆瓣FM 设置</string>
+    <string name="common_setting">常规</string>
+    <string name="wifi_tip">网络提醒</string>
+    <string name="wifi_details">没有可用的WLAN网络时弹出提示</string>
+    <string name="shake_skip">摇动换歌</string>
+    <string name="shake_details">摇动手机即可切换到下一首歌</string>
+    <string name="headphone_skip">耳机按钮换歌</string>
+    <string name="headphone_details">按耳机按钮即可切换到下一首歌</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="clear_cache_details">既往下载的内容将被全部清除，是否继续</string>
+    <string name="cache_is_empty">无缓存文件</string>
+    <string name="offline_setting">离线模式</string>
+    <string name="offline_tip">登录后设置离线模式</string>
+    <string name="offline_storage">存储空间</string>
+    <string name="offline_storage_tips">设置离线播放歌曲的存储空间</string>
+    <string name="storage_fifty">50M</string>
+    <string name="storage_one_hundred">100M</string>
+    <string name="storage_two_hundred">200M</string>
+    <string name="storage_five_hundred">500M</string>
+    <string name="offline_switch">离线播放开启时机</string>
+    <string name="offline_switch_tips">设置切换为离线播放的时机</string>
+    <string name="offline_sync">同步歌曲方式</string>
+    <string name="offline_sync_tips">设置同步歌曲的联网方式</string>
+    <string name="sync_wifi">WIFI</string>
+    <string name="sync_3g">WIFI &amp; 3G</string>
+    <string name="other_setting">其他</string>
+    <string name="feedback">反馈</string>
+    <string name="feedback_title">豆瓣FM 反馈</string>
+    <string name="feedback_details">告诉我们你的意见或建议</string>
+    <string name="help">帮助</string>
+    <string name="help_details">使用帮助和支持</string>
+    <string name="about">关于</string>
+    <string name="version">版本号：</string>
+    <string name="sleep_clock">定时关闭</string>
+    <string name="sleep_details">设置定时关闭时间</string>
+    <string name="sleep_never">从不</string>
+    <string name="sleep_quarter">15分钟</string>
+    <string name="sleep_half">半小时</string>
+    <string name="sleep_one">1小时</string>
+    <string name="sleep_two">2小时</string>
+    <string name="good_night">再见！ 豆瓣FM.</string>
+    <string name="appgallery">应用推荐</string>
+    <string name="appgallery_details">豆瓣的其他应用</string>
+    <string name="wake_clock">闹钟</string>
+    <string name="wake_details">设置闹钟时间</string>
+    <string name="wake_alarm">豆瓣FM闹钟</string>
+    <string name="wake_weekday">工作日</string>
+    <string name="wake_weekend">周末</string>
+    <string name="wake_everyday">每天</string>
+    <string name="wake_days">闹钟周期</string>
+    <string name="wake_quit">自动停止</string>
+    <string name="wake_comment">一首歌播放完后停止闹钟</string>
+    <string name="setting_button">设置</string>
+    <string name="question">你的问题：</string>
+    <string name="feedback_name">联系我们</string>
+    <string name="feedback_tip">你的反馈已经成功发送，我们的回复会在第一时间发送到你的邮箱。</string>
+    <string name="submit_button">提交</string>
+    <string name="reset_password_title">豆瓣FM 重置密码</string>
+    <string name="reset_password_name">重置豆瓣FM密码</string>
+    <string name="reset_password_tip">我们已经给你的邮箱发送了邮件，请点击邮件里面的链接来重置密码。</string>
+    <string name="error_question">请写下你遇到的问题</string>
+    <string name="submitting">正在提交,请稍候...</string>
+    <string name="error_no_confirm">这个用户没有激活过，我们给你重发了激活邮件，你激活后再来重置密码。</string>
+    <string name="error_not_registered">这个Email没有注册过。</string>
+    <string name="error_sys_error">抱歉，豆瓣的Email服务有问题，请稍后再试。</string>
+    <string name="error_playlist_error">抱歉，更新频道列表失败，请检查网络链接，稍后再试。</string>
+    <string name="quit_msg">真的要关闭吗?</string>
+    <string name="first_user_like">好，以后会给你播更多这样的好歌：）</string>
+    <string name="first_user_hate">好，这首歌不会再播了</string>
+    <string name="first_anonymous_like">不登录的话，下次用豆瓣FM红心就没了</string>
+    <string name="first_anonymous_hate">公共兆赫里的歌曲不可以被丢进垃圾桶</string>
+    <string name="red_channel_hate">红心兆赫的歌曲不能丢进垃圾桶，你可以取消红心</string>
+    <string name="personal_offline_red_channel_notification">离线播放</string>
+    <string name="personal_offline_red_channel_not_open">你的离线模式没有开启</string>
+    <string name="personal_offline_red_channel_is_playing">正在离线播放.. 同步功能暂停</string>
+    <string name="error_host">解析服务器出错，请确认网络可用，稍后再试</string>
+    <string name="error_time_out">网络超时，请确认网络可用，稍后再试</string>
+    <string name="error_no_net">现在还没有同步任何离线歌曲，联网后才能继续收听：（</string>
+    <string name="wifi_mobile">即将使用移动网络播放，可能会产生流量费用。是否继续？</string>
+    <string name="error_relogin">登录已经过期，请重新登录。</string>
+    <string name="error_using_wap">网络设置APN为WAP，可能导致豆瓣FM不可用：（</string>
+    <string name="ok_button">确定</string>
+    <string name="accept_button">同意</string>
+    <string name="reject_button">退出</string>
+    <string name="cancel_button">取消</string>
+    <string name="error_start_url">解析链接失败</string>
+    <string name="invalid_url">豆瓣FM无法识别此链接</string>
+    <string name="account_name">关于豆瓣FM帐号</string>
+    <string name="account_msg1">此帐号暂时只能在手机豆瓣FM上使用</string>
+    <string name="account_msg2">如果想开启豆瓣其他服务，请前往豆瓣网（www.douban.com）用邮箱来注册新的帐号。</string>
+    <string name="about_text">"应用名称：豆瓣FM
+
+Version Name:%1$s
+
+公司相关信息:
+Douban Inc.
+All Rights Reserved.
+
+客服电话：4006599983
+
+客服邮件：
+android@douban.com"</string>
+    <string name="acknownledgment_title">免责声明</string>
+    <string name="ackownledgment_moto">您将要开始的应用是由北京豆网科技公司开发、拥有、运营的音乐类应用。摩托罗拉不承担该应用任何方面的任何责任，包括但不限于其性能、知识产权、支持、服务、内容及收费。该应用在使用过程中可能产生的数据流量费用请参看相关运营商公布的收费标准。</string>
+    <string name="throughput_tip">该应用在使用过程中会产生数据流量，由流量产生的费用请参见运营商公布的收费标准。本服务目前只面向已开通互联网服务的用户。</string>
+    <string name="ackownledgment_douban">"则 
+
+ \u0009用户在接受豆瓣FM服务之前，请务必仔细阅读本条款并同意本声明。
+ \u0009用户直接或通过各类方式间接使用豆瓣FM的服务，都将被视作已无条件接受本声明所涉全部内容；若用户对本声明的任何条款有异议，请停止使用豆瓣FM所提供的全部服务。 
+ 第一条 
+
+ \u0009用户以各种方式使用豆瓣FM服务的过程中，不得以任何方式利用豆瓣FM直接或间接从事违反中国法律、以及社会公德的行为，且用户应当恪守下述承诺： 
+
+ \u00091. 不得干扰、损害和侵犯豆瓣FM的各种合法权利与利益；
+ \u00092. 遵守豆瓣FM以及与之相关的网络服务的协议、指导原则、管理细则等； 
+
+ \u0009豆瓣FM有权对违反上述承诺的内容予以删除。 
+
+ 第二条 
+
+ \u0009豆瓣FM仅为用户的历史收听数据提供存储空间，豆瓣FM不对用户资料数据提供任何形式的保证：不保证数据满足您的要求，不保证豆瓣FM的服务不会中断。因网络状况、通讯线路、其它公司或者管理部门的要求等任何原因而导致您不能正常使用豆瓣FM，豆瓣FM不承担任何法律责任。 
+
+ 第三条 
+
+ \u0009个人或单位如认为豆瓣FM上存在侵犯自身合法权益的内容，应准备好具有法律效应的证明材料，及时与豆瓣FM取得联系，以便豆瓣FM迅速做出处理。 
+
+ 附则 
+
+ \u0009对免责声明的解释、修改及更新权均属于豆瓣FM所有。
+
+ \u0009联系我们请 Email: 
+\u0009music-help@douban.com
+"</string>
+    <string name="sina_login">用新浪微博账号登录</string>
+    <string name="sina_fail">用新浪微博账号登录失败</string>
+    <string name="widget_small">豆瓣FM (小)</string>
+    <string name="widget_large">豆瓣FM (大)</string>
+    <string name="start">立即开启</string>
+    <string name="no_wifi">没有 WIFI</string>
+    <string name="no_network">没有网络</string>
+    <string name="never_offline">从不</string>
+    <string name="tip_heart_title">红心兆赫</string>
+    <string name="tip_heart_body">"只播你喜欢的歌曲
+没有网络也能听"</string>
+    <string name="tip_heart_button">立即体验</string>
+    <string name="offline_status">（离线）</string>
+    <string name="offline_error_3g">离线歌曲数量不够，是否用3G或2G网络收听?</string>
+    <string name="offline_error_no_network">现在还没同步任何离线歌曲，联网后才能继续收听:(</string>
+    <string name="no_heart_song">对不起，红心MHz没有歌曲可播了。</string>
+    <string name="heart_sync_start">开始同步红心MHz离线歌曲</string>
+    <string name="heart_syncing">（同步中）</string>
+    <string name="heart_sync_stop">红心MHz离线歌曲同步已完成</string>
+    <string name="offline_start">开始离线播放红心MHz</string>
+    <string name="online_error_3g">是否要用3G或2G网络收听内容？</string>
+    <string name="online_error_no_network">无可用网络，请确认网络可用，稍后再试</string>
+    <string name="error_no_network_no_offline">无法联网获取歌曲，开启离线模式后可离线收听</string>
+    <string name="last_offline_song">离线歌曲只剩1首歌了，不能再删除了</string>
+    <string name="offline_about_title">离线模式说明</string>
+    <string name="offline_about">离线歌曲最多占用100M空间，收听一段时间后，离线歌曲会被更新。</string>
+    <string name="pause_tip">点击封面，播放暂停。</string>
+    <string name="play_resume">继续收听 ></string>
+    <string name="no_network_switch_channel">没有网络连接，是否要继续收听离线歌曲？</string>
+    <string name="share">分享</string>
+    <string name="sharing">分享中</string>
+    <string name="share_song">分享这首歌</string>
+    <string name="share_setting">分享设置</string>
+    <string name="share_douban">豆瓣</string>
+    <string name="share_sina">新浪</string>
+    <string name="share_renren">人人</string>
+    <string name="share_tencent">腾讯</string>
+    <string name="share_info">(来自豆瓣FM - %1$s兆赫)</string>
+    <string name="share_info_withoutMHz">(来自豆瓣FM - %1$s)</string>
+    <string name="share_info_cn">(来自豆瓣FM - %1$sMHz)</string>
+    <string name="share_info_cn_withoutMHz">(来自豆瓣FM - %1$s)</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_fail">分享失败</string>
+    <string name="share_to_douban_fail">分享到豆瓣失败</string>
+    <string name="share_to_sina_fail">分享到新浪微博失败</string>
+    <string name="share_to_renren_fail">分享到人人失败</string>
+    <string name="share_to_tencent_fail">分享到腾讯微博失败</string>
+    <string name="share_hint">写点什么</string>
+    <string name="share_append">分享%1$s的单曲《%2$s》</string>
+    <string name="need_bind_email">需要认证邮箱来启用分享到豆瓣</string>
+    <string name="verify_email">认证邮箱</string>
+    <string name="send_button">发送</string>
+    <string name="sina_token_expired">新浪Token失效。请重新授权！</string>
+    <string name="share_need_auth">需要登录豆瓣或绑定第三方网站后后才能分享</string>
+    <string name="share_auth_title">授权分享</string>
+    <string name="pwd_of_account">豆瓣帐号密码</string>
+    <string name="email_to_bind">绑定邮箱</string>
+    <string name="email_already_bound">邮箱已绑定</string>
+    <string name="wrong_pwd">密码输入错误</string>
+    <string name="invalid_email">请输入正确的email地址</string>
+    <string name="not_supported_email_suffix">暂不支持该邮箱后缀</string>
+    <string name="email_used">邮箱已经被使用</string>
+    <string name="bind_email_failed">邮箱绑定失败，请稍后重试</string>
+    <string name="bind_email_sent">确认信已经发到你的邮箱%1$s, 你需要点击邮件中的确认链接来完成绑定</string>
+    <string name="account">账户</string>
+    <string name="account_setting">账户设置</string>
+    <string name="account_tip">账户操作</string>
+    <string name="account_details">登录、登出</string>
+    <string name="not_login">未登录</string>
+    <string name="login">登录</string>
+    <string name="logout">登出</string>
+    <string name="verify_email_sent">认证邮件已寄出</string>
+    <string name="verify_email_fail">认证发送失败</string>
+    <string name="app_gallery">豆瓣应用推荐</string>
+    <string name="appname">豆瓣FM Android版</string>
+    <string name="rate">给豆瓣FM打分</string>
+    <string name="other_apps">其他豆瓣应用</string>
+    <string name="acknowledgements">acknowledgements</string>
+    <string name="copyright">\@2012 Douban Inc.</string>
+    <string name="app_bookcart">豆瓣购书单</string>
+    <string name="app_movie">豆瓣电影</string>
+    <string name="app_artists">豆瓣音乐人</string>
+    <string name="app_events">豆瓣活动</string>
+    <string name="app_duijiao">对角</string>
+    <string name="app_shuo">豆瓣说</string>
+    <string name="app_more">查找更多</string>
+    <string name="UMEmptyFbNotAllowed">请输入你的反馈内容</string>
+    <string name="UMContentTooLong">超过140字了，再简短一些吧</string>
+    <string name="UMFbList_ListItem_State_ReSend">失败,轻触以重发</string>
+    <string name="UMFbList_ListItem_State_Sending">发送中...</string>
+    <string name="UMFbList_ListItem_State_Fail">发送失败</string>
+    <string name="UMFb_Atom_State_Sending">发送中...</string>
+    <string name="UMFb_Atom_State_Resend">发送失败,轻触以重发</string>
+    <string name="UMFeedbackUmengTitle">反馈意见</string>
+    <string name="UMFeedbackListTitle">我的反馈</string>
+    <string name="UMFeedbackConversationTitle">反馈问题</string>
+    <string name="UMFeedbackTitle">每条建议都将帮助我们做得更好。</string>
+    <string name="UMFeedbackContent">请输入您的反馈意见</string>
+    <string name="UMFeedbackSummit">提交</string>
+    <string name="UMViewThread">查看反馈</string>
+    <string name="UMNewReplyAlertTitle">您的反馈收到了回复</string>
+    <string name="UMDeleteThread">删除反馈</string>
+    <string name="UMViewFeedback">查看反馈</string>
+    <string name="UMDeleteFeedback">删除反馈</string>
+    <string name="UMResendFeedback">重发反馈</string>
+    <string name="UMDeleteMsg">删除信息</string>
+    <string name="UMNewReplyFlick">有新的回复</string>
+    <string name="UMNewReplyTitle">有新的回复</string>
+    <string name="UMNewReplyHint">点击查看</string>
+    <string name="UMBreak_Network">未联网</string>
+    <string name="UMUpdateTitle">应用程序有新版本更新</string>
+    <string name="UMNewVersion">最新版本:</string>
+    <string name="UMGprsCondition">（提示：非WIFI环境）</string>
+    <string name="UMUpdateNow">立即更新</string>
+    <string name="UMAppUpdate">应用更新</string>
+    <string name="UMUpdatingNow">正在更新应用程序...</string>
+    <string name="UMNotNow">以后再说</string>
+    <string name="UMToast_IsUpdating">正在更新中....</string>
+    <string name="UMDialog_InstallAPK">最新版本已下载，是否安装？</string>
+</resources>

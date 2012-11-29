@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="focus_yellow">#ff99ff66</color>
+    <color name="loading_gray">#cccccccc</color>
+    <color name="title_gray">#ff333333</color>
+    <color name="orange">#ffff5500</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="date_color">#ff999999</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ff999999</color>
+    <color name="blue">#ff0066cc</color>
+    <color name="gold">#ffe6b121</color>
+    <color name="deepgray">#ff666666</color>
+    <color name="blueback">#ff99ffff</color>
+    <color name="articlecolor">#ff3399ff</color>
+    <color name="article_title">#ff3399ff</color>
+    <color name="cachecolor">#ff8ad0e8</color>
+    <color name="semitransparent_white">#eeffffff</color>
+    <color name="background_color">#ffb1dfe0</color>
+    <color name="semitransparent_gray">#99999999</color>
+    <color name="menu_gray">#ffaeadac</color>
+</resources>

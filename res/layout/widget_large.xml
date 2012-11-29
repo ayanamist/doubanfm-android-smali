@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/widget_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/logoWidget" android:src="@drawable/widget_logo" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/widget_large_logo" />
+    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/powerButton" android:background="@drawable/frame" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_height="48.0dip" android:text="@string/start" android:drawableRight="@drawable/power_on_button" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/widget_large_start" />
+</RelativeLayout>

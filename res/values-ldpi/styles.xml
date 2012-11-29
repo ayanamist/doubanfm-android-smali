@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="widget_large">
+        <item name="android:background">@drawable/widget_bg</item>
+        <item name="android:layout_width">280.0dip</item>
+        <item name="android:layout_height">320.0dip</item>
+    </style>
+    <style name="widget_large_cover">
+        <item name="android:layout_width">190.0dip</item>
+        <item name="android:layout_height">190.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+    </style>
+    <style name="widget_large_logo">
+        <item name="android:layout_height">170.0dip</item>
+        <item name="android:layout_marginTop">40.0dip</item>
+    </style>
+    <style name="widget_large_start">
+        <item name="android:layout_width">160.0dip</item>
+        <item name="android:layout_marginBottom">40.0dip</item>
+    </style>
+    <style name="offline_status" parent="@style/channel_title">
+        <item name="android:textSize">8.0sp</item>
+    </style>
+    <style name="channel_top">
+        <item name="android:layout_marginTop">12.0px</item>
+    </style>
+    <style name="mask_new">
+        <item name="android:layout_width">40.0px</item>
+        <item name="android:layout_height">16.0px</item>
+        <item name="android:layout_marginTop">12.0px</item>
+    </style>
+</resources>

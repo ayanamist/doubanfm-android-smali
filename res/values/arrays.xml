@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sleep_labels">
+        <item>@string/sleep_never</item>
+        <item>@string/sleep_quarter</item>
+        <item>@string/sleep_half</item>
+        <item>@string/sleep_one</item>
+        <item>@string/sleep_two</item>
+    </array>
+    <array name="day_labels">
+        <item>@string/wake_weekday</item>
+        <item>@string/wake_weekend</item>
+        <item>@string/wake_everyday</item>
+    </array>
+    <array name="offline_labels">
+        <item>@string/no_wifi</item>
+        <item>@string/never_offline</item>
+    </array>
+    <array name="storage_labels">
+        <item>@string/storage_fifty</item>
+        <item>@string/storage_one_hundred</item>
+        <item>@string/storage_two_hundred</item>
+        <item>@string/storage_five_hundred</item>
+    </array>
+    <array name="sync_labels">
+        <item>@string/sync_wifi</item>
+        <item>@string/sync_3g</item>
+    </array>
+    <string-array name="UMageList">
+        <item>年龄</item>
+        <item>18岁以下</item>
+        <item>18-24岁</item>
+        <item>25-30岁</item>
+        <item>31-35岁</item>
+        <item>36-40岁</item>
+        <item>41-50岁</item>
+        <item>51-59岁</item>
+        <item>60岁及以上</item>
+    </string-array>
+    <string-array name="UMgenderList">
+        <item>性别</item>
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+</resources>
