@@ -268,11 +268,26 @@
 
 # virtual methods
 .method public destroy()V
-    .locals 2
+    .locals 4
 
     .prologue
     .line 180
     :try_start_0
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lfm/douban/service/Player;->wl:Landroid/os/PowerManager$WakeLock;
+
+    move-object/from16 v3, v0
+
+    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_a
+
+    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->release()V
+
+    :cond_a
     sget-object v0, Lfm/douban/service/Player;->mplayer:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->reset()V
@@ -1023,6 +1038,21 @@
     .locals 4
 
     .prologue
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lfm/douban/service/Player;->wl:Landroid/os/PowerManager$WakeLock;
+
+    move-object/from16 v3, v0
+
+    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_a
+
+    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->release()V
+
+    :cond_a
     .line 135
     iget-object v1, p0, Lfm/douban/service/Player;->state:Lfm/douban/service/Player$State;
 
@@ -1079,6 +1109,21 @@
     .parameter "s"
 
     .prologue
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lfm/douban/service/Player;->wl:Landroid/os/PowerManager$WakeLock;
+
+    move-object/from16 v3, v0
+
+    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+
+    move-result v2
+
+    if-nez v2, :cond_a
+
+    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->acquire()V
+
+    :cond_a
     const/4 v10, 0x0
 
     .line 100
@@ -1451,6 +1496,21 @@
     .locals 4
 
     .prologue
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lfm/douban/service/Player;->wl:Landroid/os/PowerManager$WakeLock;
+
+    move-object/from16 v3, v0
+
+    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+
+    move-result v2
+
+    if-nez v2, :cond_a
+
+    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->acquire()V
+
+    :cond_a
     .line 147
     iget-object v1, p0, Lfm/douban/service/Player;->state:Lfm/douban/service/Player$State;
 
@@ -1553,6 +1613,21 @@
     .locals 4
 
     .prologue
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lfm/douban/service/Player;->wl:Landroid/os/PowerManager$WakeLock;
+
+    move-object/from16 v3, v0
+
+    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_a
+
+    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->release()V
+
+    :cond_a
     .line 159
     sget-object v1, Lfm/douban/service/Player;->mplayer:Landroid/media/MediaPlayer;
 
