@@ -116,7 +116,7 @@
 
     move-object/from16 v1, v3
 
-    invoke-virtual/range {v0 .. v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -279,7 +279,7 @@
 
     move-object/from16 v3, v0
 
-    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+    invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
 
     move-result v2
 
@@ -1044,13 +1044,13 @@
 
     move-object/from16 v3, v0
 
-    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+    invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
 
     move-result v2
 
     if-eqz v2, :cond_a
 
-    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->release()V
+    invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->release()V
 
     :cond_a
     .line 135
@@ -1115,13 +1115,13 @@
 
     move-object/from16 v3, v0
 
-    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+    invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
 
     move-result v2
 
     if-nez v2, :cond_a
 
-    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->acquire()V
+    invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->acquire()V
 
     :cond_a
     const/4 v10, 0x0
@@ -1502,13 +1502,13 @@
 
     move-object/from16 v3, v0
 
-    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+    invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
 
     move-result v2
 
     if-nez v2, :cond_a
 
-    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->acquire()V
+    invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->acquire()V
 
     :cond_a
     .line 147
@@ -1619,13 +1619,13 @@
 
     move-object/from16 v3, v0
 
-    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+    invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
 
     move-result v2
 
     if-eqz v2, :cond_a
 
-    invoke-virtual/range {v3 .. v3}, Landroid/os/PowerManager$WakeLock;->release()V
+    invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->release()V
 
     :cond_a
     .line 159
