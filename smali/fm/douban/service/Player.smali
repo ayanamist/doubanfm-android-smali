@@ -112,11 +112,11 @@
     .local v2, pm:Landroid/os/PowerManager;
     const-string v3, "power"
 
-    move-object/from16 v0, p0
+    move-object/from16 v0, p1
 
     move-object/from16 v1, v3
 
-    invoke-virtual {v0, v1}, Lfm/douban/service/Player;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual/range {v0 .. v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
