@@ -58,6 +58,7 @@
 
 .field private volume:F
 
+.field private wl:Landroid/os/PowerManager$WakeLock;
 
 # direct methods
 .method static constructor <clinit>()V
@@ -73,7 +74,7 @@
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Lfm/douban/service/Radio;Lfm/douban/model/SongStore;)V
-    .locals 1
+    .locals 7
     .parameter "ctx"
     .parameter "r"
     .parameter "ss"
@@ -105,6 +106,40 @@
 
     .line 80
     invoke-direct {p0}, Lfm/douban/service/Player;->reset()V
+
+    const/4 v2, 0x0
+
+    .local v2, pm:Landroid/os/PowerManager;
+    const-string v3, "power"
+
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, v3
+
+    invoke-virtual {v0, v1}, Lfm/douban/service/Player;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/os/PowerManager;
+
+    const/16 v4, 0x1
+
+    const-string v5, "fm.douban.service.Player"
+
+    move/from16 v0, v4
+
+    move-object/from16 v1, v5
+
+    invoke-virtual {v2, v0, v1}, Landroid/os/PowerManager;->newWakeLock(ILjava/lang/String;)Landroid/os/PowerManager$WakeLock;
+
+    move-result-object v6
+
+    move-object/from16 v0, v6
+
+    move-object/from16 v1, p0
+
+    iput-object v0, v1, Lfm/douban/service/Player;->wl:Landroid/os/PowerManager$WakeLock;
+    .end local v2           #pm:Landroid/os/PowerManager;
 
     .line 82
     return-void
