@@ -1626,21 +1626,6 @@
     .locals 4
 
     .prologue
-    move-object/from16 v0, p0
-
-    iget-object v0, v0, Lfm/douban/service/Player;->wl:Landroid/os/PowerManager$WakeLock;
-
-    move-object/from16 v3, v0
-
-    invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_a
-
-    invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->release()V
-
-    :cond_a
     .line 159
     sget-object v1, Lfm/douban/service/Player;->mplayer:Landroid/media/MediaPlayer;
 
